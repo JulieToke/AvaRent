@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\steve.ocallaghan\\source\\repos\\IgnitionTeamOne\\Avanade.Core\\Avanade.Engine.Sales.Database\\Avanade.Engine.Sales.Database.csproj": {}
+    "C:\\Users\\sirirat.wisessiri\\code\\Ignition\\Avanade.Core\\Avanade.Engine.Sales.Database\\Avanade.Engine.Sales.Database.csproj": {}
   },
   "projects": {
-    "C:\\Users\\steve.ocallaghan\\source\\repos\\IgnitionTeamOne\\Avanade.Core\\Avanade.Engine.Sales.Database\\Avanade.Engine.Sales.Database.csproj": {
+    "C:\\Users\\sirirat.wisessiri\\code\\Ignition\\Avanade.Core\\Avanade.Engine.Sales.Database\\Avanade.Engine.Sales.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\steve.ocallaghan\\source\\repos\\IgnitionTeamOne\\Avanade.Core\\Avanade.Engine.Sales.Database\\Avanade.Engine.Sales.Database.csproj",
+        "projectUniqueName": "C:\\Users\\sirirat.wisessiri\\code\\Ignition\\Avanade.Core\\Avanade.Engine.Sales.Database\\Avanade.Engine.Sales.Database.csproj",
         "projectName": "Avanade.Engine.Sales.Database",
-        "projectPath": "C:\\Users\\steve.ocallaghan\\source\\repos\\IgnitionTeamOne\\Avanade.Core\\Avanade.Engine.Sales.Database\\Avanade.Engine.Sales.Database.csproj",
-        "packagesPath": "C:\\Users\\steve.ocallaghan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\steve.ocallaghan\\source\\repos\\IgnitionTeamOne\\Avanade.Core\\Avanade.Engine.Sales.Database\\obj\\",
+        "projectPath": "C:\\Users\\sirirat.wisessiri\\code\\Ignition\\Avanade.Core\\Avanade.Engine.Sales.Database\\Avanade.Engine.Sales.Database.csproj",
+        "packagesPath": "C:\\Users\\sirirat.wisessiri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sirirat.wisessiri\\code\\Ignition\\Avanade.Core\\Avanade.Engine.Sales.Database\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\steve.ocallaghan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sirirat.wisessiri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
