@@ -38,11 +38,11 @@ export class NavMenu extends Component {
                               </NavItem>
 
                               <NavItem>
-                                  <NavLink tag={Link} className="text-dark" to="/counter">Create Maintenance Request</NavLink>
+                                  <NavLink tag={Link} className="text-dark" to="/maintenance-request">Create Maintenance Request</NavLink>
                               </NavItem>
 
                               <NavItem>
-                                  <NavLink tag={Link} className="text-dark" to="/about">Sign up to AvaRent</NavLink>
+                                  <NavLink tag={Link} className="text-dark" to="/new-tenant">Sign up to AvaRent</NavLink>
                               </NavItem>
 
                           </ul>

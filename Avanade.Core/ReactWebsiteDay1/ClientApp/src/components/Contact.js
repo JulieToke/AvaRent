@@ -1,6 +1,4 @@
-﻿import { Fragment } from "react";
-
-const ContactUs = (props) => {
+﻿const ContactUs = (props) => {
     return (
         <div>
             Contact Us Now

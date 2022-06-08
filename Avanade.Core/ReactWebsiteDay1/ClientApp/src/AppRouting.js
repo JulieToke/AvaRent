@@ -2,20 +2,19 @@
 import { Route } from 'react-router';
 
 import Landing from './components/Landing';
-import Counter from './components/NewRequest';
-import Hello from './components/Hello';
-import ContactUs from './components/Contact';
-import ProductList from './components/MaintenanceRequest';
+import NewTenant from './components/NewTenant';
+// import Hello from './components/Hello';
+//import ContactUs from './components/Contact';
+import MaintenanceRequest from './components/MaintenanceRequest';
 
 const AppRouting = () => {
 
     return (
         <Fragment>
             <Route exact={true} path="/" component={Landing} />
-            <Route exact={true} path="/counter" component={Counter} />
-            <Route exact={true} path="/services" component={Hello} />
-            <Route exact={true} path="/productlist" component={ProductList} />
-            <Route exact={true} path="/contact" component={ContactUs} />
+            <Route exact={true} path="/maintenance-request" component={MaintenanceRequest} />
+            <Route exact={true} path="/new-tenant" component={NewTenant} />
+
         </Fragment>
     );
 };

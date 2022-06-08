@@ -1,6 +1,6 @@
 import { Fragment, useEffect, useState } from "react";
 
-const ProductList = (props) => {
+const MaintenanceRequest = (props) => {
     
     const product = { id: 3, name: 'M1 MacBook', description: 'Normal MacBook on the Market', price: 699.00 };
 
@@ -17,7 +17,7 @@ const ProductList = (props) => {
     }
 
     const bottomStyle = {
-        fontSize: '8px',
+        fontSize: '12px',
         textAlign: 'center'
     }
     
@@ -28,7 +28,9 @@ const ProductList = (props) => {
     return (
         <Fragment>
             
-            <h1 style={titleStyle}>List of Products Here</h1>
+            <h1 style={titleStyle}>Julie add Maintenance Request Form here</h1>
+
+            <p style={bottomStyle}>(try pull some dummy data from above array)</p>
 
             {products.map((pr, i) =>
                 <Fragment key={i}>
@@ -43,7 +45,7 @@ const ProductList = (props) => {
    
 };
 
-export default ProductList;
+export default MaintenanceRequest;
 
 const Product3 = (props) => {
 

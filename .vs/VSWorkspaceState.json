@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Avanade.Core",
+    "\\Avanade.Core\\Cons",
+    "\\Avanade.Core\\Launcher",
+    "\\Avanade.Core\\ReactWebsiteDay1",
+    "\\Avanade.Core\\ReactWebsiteDay1\\bin"
   ],
-  "SelectedNode": "\\Avanade.Core.sln",
+  "SelectedNode": "\\Avanade.Core\\Avanade.Core.sln",
   "PreviewInSolutionExplorer": false
 }
