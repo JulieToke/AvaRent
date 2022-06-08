@@ -45,22 +45,6 @@ const ProductList = (props) => {
 
 export default ProductList;
 
-// const Product1 = (props) => {
-
-//     const costStyle = {
-//         color: 'red',
-//     }
-
-//     // return (
-//     //     <div>
-//     //         <h1>{product.name} - ID:{product.id}</h1>
-//     //         <h4 style={costStyle}>${product.price}</h4>
-//     //         <p>{product.description}</p>
-//     //     </div>
-//     // );
-    
-// };
-
 const Product3 = (props) => {
 
     const [product, setProduct] = useState(props.product)

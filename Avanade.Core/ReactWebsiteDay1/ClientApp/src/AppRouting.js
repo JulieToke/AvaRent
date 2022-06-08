@@ -2,10 +2,10 @@
 import { Route } from 'react-router';
 
 import Landing from './components/Landing';
-import Counter from './components/Counter';
+import Counter from './components/NewRequest';
 import Hello from './components/Hello';
 import ContactUs from './components/Contact';
-import ProductList from './components/ProductList';
+import ProductList from './components/MaintenanceRequest';
 
 const AppRouting = () => {
 
