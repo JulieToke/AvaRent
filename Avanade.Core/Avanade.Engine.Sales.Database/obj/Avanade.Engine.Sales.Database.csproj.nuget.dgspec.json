@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\steve.ocallaghan\\source\\repos\\Ignition\\Avanade.Core\\Avanade.Engine.Sales.Database\\Avanade.Engine.Sales.Database.csproj": {}
+    "C:\\Users\\steve.ocallaghan\\source\\repos\\IgnitionTeamOne\\Avanade.Core\\Avanade.Engine.Sales.Database\\Avanade.Engine.Sales.Database.csproj": {}
   },
   "projects": {
-    "C:\\Users\\steve.ocallaghan\\source\\repos\\Ignition\\Avanade.Core\\Avanade.Engine.Sales.Database\\Avanade.Engine.Sales.Database.csproj": {
+    "C:\\Users\\steve.ocallaghan\\source\\repos\\IgnitionTeamOne\\Avanade.Core\\Avanade.Engine.Sales.Database\\Avanade.Engine.Sales.Database.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\steve.ocallaghan\\source\\repos\\Ignition\\Avanade.Core\\Avanade.Engine.Sales.Database\\Avanade.Engine.Sales.Database.csproj",
+        "projectUniqueName": "C:\\Users\\steve.ocallaghan\\source\\repos\\IgnitionTeamOne\\Avanade.Core\\Avanade.Engine.Sales.Database\\Avanade.Engine.Sales.Database.csproj",
         "projectName": "Avanade.Engine.Sales.Database",
-        "projectPath": "C:\\Users\\steve.ocallaghan\\source\\repos\\Ignition\\Avanade.Core\\Avanade.Engine.Sales.Database\\Avanade.Engine.Sales.Database.csproj",
+        "projectPath": "C:\\Users\\steve.ocallaghan\\source\\repos\\IgnitionTeamOne\\Avanade.Core\\Avanade.Engine.Sales.Database\\Avanade.Engine.Sales.Database.csproj",
         "packagesPath": "C:\\Users\\steve.ocallaghan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\steve.ocallaghan\\source\\repos\\Ignition\\Avanade.Core\\Avanade.Engine.Sales.Database\\obj\\",
+        "outputPath": "C:\\Users\\steve.ocallaghan\\source\\repos\\IgnitionTeamOne\\Avanade.Core\\Avanade.Engine.Sales.Database\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\steve.ocallaghan\\AppData\\Roaming\\NuGet\\NuGet.Config",

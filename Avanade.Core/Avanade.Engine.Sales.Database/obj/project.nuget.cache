@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OrDTb1Dd+BbcbEg5OSRNMGEQ9upmBhrTzO6bCN4yzezAmhRLllf50ux4SlN3UVV6F46jvxaGdwbthGXCz9pTtQ==",
+  "dgSpecHash": "oVCxsrdvxS8yJrQDH/UXZKQjMI7u+FTNxAhk0QSrnFL9yibg6gUcRbhjZoSweZwMSdXeBu+opMlECyGTPIgd7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\steve.ocallaghan\\source\\repos\\Ignition\\Avanade.Core\\Avanade.Engine.Sales.Database\\Avanade.Engine.Sales.Database.csproj",
+  "projectFilePath": "C:\\Users\\steve.ocallaghan\\source\\repos\\IgnitionTeamOne\\Avanade.Core\\Avanade.Engine.Sales.Database\\Avanade.Engine.Sales.Database.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\steve.ocallaghan\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\steve.ocallaghan\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",

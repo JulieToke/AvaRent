@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\steve.ocallaghan\\source\\repos\\Ignition\\Avanade.Core\\CodeExamples\\CodeExamples.csproj": {}
+    "C:\\Users\\steve.ocallaghan\\source\\repos\\IgnitionTeamOne\\Avanade.Core\\CodeExamples\\CodeExamples.csproj": {}
   },
   "projects": {
-    "C:\\Users\\steve.ocallaghan\\source\\repos\\Ignition\\Avanade.Core\\CodeExamples\\CodeExamples.csproj": {
+    "C:\\Users\\steve.ocallaghan\\source\\repos\\IgnitionTeamOne\\Avanade.Core\\CodeExamples\\CodeExamples.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\steve.ocallaghan\\source\\repos\\Ignition\\Avanade.Core\\CodeExamples\\CodeExamples.csproj",
+        "projectUniqueName": "C:\\Users\\steve.ocallaghan\\source\\repos\\IgnitionTeamOne\\Avanade.Core\\CodeExamples\\CodeExamples.csproj",
         "projectName": "CodeExamples",
-        "projectPath": "C:\\Users\\steve.ocallaghan\\source\\repos\\Ignition\\Avanade.Core\\CodeExamples\\CodeExamples.csproj",
+        "projectPath": "C:\\Users\\steve.ocallaghan\\source\\repos\\IgnitionTeamOne\\Avanade.Core\\CodeExamples\\CodeExamples.csproj",
         "packagesPath": "C:\\Users\\steve.ocallaghan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\steve.ocallaghan\\source\\repos\\Ignition\\Avanade.Core\\CodeExamples\\obj\\",
+        "outputPath": "C:\\Users\\steve.ocallaghan\\source\\repos\\IgnitionTeamOne\\Avanade.Core\\CodeExamples\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\steve.ocallaghan\\AppData\\Roaming\\NuGet\\NuGet.Config",

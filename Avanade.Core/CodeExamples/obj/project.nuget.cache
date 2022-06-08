@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EnPHt373hju18bRxbufe8oxpaYz0XaQ1w7rX55zAvaSB111Y97PbIERPUqUSLB0Yd/Qagh1YfqkxadDEb9Nh6g==",
+  "dgSpecHash": "+wrO9tDJXngLknK+CS2f0z4bivY9dtbuRxWFMILaZ6MHwpYQlvtUk1SrYZxwwVFiNwhEviOoVq1eusMKw4VOdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\steve.ocallaghan\\source\\repos\\Ignition\\Avanade.Core\\CodeExamples\\CodeExamples.csproj",
+  "projectFilePath": "C:\\Users\\steve.ocallaghan\\source\\repos\\IgnitionTeamOne\\Avanade.Core\\CodeExamples\\CodeExamples.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\steve.ocallaghan\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\steve.ocallaghan\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
