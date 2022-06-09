@@ -8,7 +8,7 @@ const MaintenanceRequest = (props) => {
         { id: 5, name: 'M1 MacBook', description: 'Normal MacBook on the Market', price: 699.00 },
         { id: 6, name: 'M2 MacBook', description: 'Good MacBook on the Market', price: 1699.00 },
         { id: 7, name: 'M3 MacBook', description: 'Better MacBook on the Market', price: 2699.00 },
-        { id: 8, name: 'M4 MacBook', description: 'Best MacBook on the Market', price: 3699.00 }
+        { id: 8, name: 'M4 MacBook', description: 'Best MacBook on the Market', price: 3699.01 }
     ];
      
     const titleStyle = {
