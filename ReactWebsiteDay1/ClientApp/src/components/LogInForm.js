@@ -36,7 +36,7 @@ const LogIn = (props) =>  {
                    
                     <Row>
                         <Col className="text-center">
-                            <Button outline color="primary" className="btn" onSubmit={() => props.history.push("/maintenance-request")} onClick={() => props.history.push("/maintenance-request")}>Log-In</Button> 
+                            <Button outline color="primary" className="btn" onSubmit={() => props.history.push("/maintenance-request")} onClick={() => props.history.push("/maintenance-request")}>Log In</Button> 
                         </Col>
                     </Row>                                              
                 </Form>
