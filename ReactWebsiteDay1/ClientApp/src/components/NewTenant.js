@@ -108,6 +108,7 @@ const NewTenant = ()  => {
                 </Col>
             </FormGroup>
 
+            
             <h4>Preferences</h4>
 
             <FormGroup row>
@@ -199,6 +200,24 @@ const NewTenant = ()  => {
                     </Input>
                 </Col>
             </FormGroup>
+
+            <FormGroup row>
+                <Label
+                    for="move-in-date"
+                    sm={2}
+                >
+                    Move in Date
+                </Label>
+                <Col sm={10}>
+                    <Input
+                        id="move-in-date"
+                        name="move-in-date"
+                        placeholder="Move in Date"
+                        type="text"
+                    />
+                </Col>
+            </FormGroup>
+
 
             <Button color="light">
                 Submit
