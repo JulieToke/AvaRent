@@ -20,3 +20,7 @@ html {
 .linkText {
     color: darkorange !important;
 }
+
+.logo {
+    width: 2rem;
+}

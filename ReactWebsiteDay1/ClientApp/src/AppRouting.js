@@ -6,6 +6,7 @@ import NewTenant from './components/NewTenant';
 // import Hello from './components/Hello';
 //import ContactUs from './components/Contact';
 import MaintenanceRequest from './components/MaintenanceRequest';
+import LogIn from './components/LogInForm';
 
 const AppRouting = () => {
 
@@ -14,6 +15,7 @@ const AppRouting = () => {
             <Route exact={true} path="/" component={Landing} />
             <Route exact={true} path="/maintenance-request" component={MaintenanceRequest} />
             <Route exact={true} path="/new-tenant" component={NewTenant} />
+            <Route exact={true} path="/log-in" component={LogIn} />
 
         </Fragment>
     );
