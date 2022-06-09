@@ -1,0 +1,40 @@
+﻿body {
+   
+}
+
+.btn {
+    margin-top: 2rem;
+    color: darkorange;
+    border-color: darkorange;
+    transition: background-color 1s;
+}
+
+.btn:hover {
+    background-color: darkorange;
+    border-color: darkorange;
+    color: white;
+}
+
+/*.btn:focus,
+.btn:active {
+    background-color: darkorange;
+    color: white;
+    transition: none;
+}*/
+
+.card {
+    margin-top: 3.5rem;
+    transition: transform .7s ease;
+}
+
+    .card:hover {
+        transform: scale(1.08);
+    }
+
+.card img {
+    height: 14rem;
+}
+
+footer {
+    height: 3rem;
+}

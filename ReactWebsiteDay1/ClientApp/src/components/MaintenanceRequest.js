@@ -1,16 +1,19 @@
 import { Fragment, useEffect, useState } from "react";
+import { Button, Input, FormGroup, Label, Col } from 'reactstrap';
+import './../resources/css/MaintenanceRequest.css';
+
 
 const MaintenanceRequest = (props) => {
-    
-    const product = { id: 3, name: 'M1 MacBook', description: 'Normal MacBook on the Market', price: 699.00 };
 
-    const products = [
-        { id: 5, name: 'M1 MacBook', description: 'Normal MacBook on the Market', price: 699.00 },
-        { id: 6, name: 'M2 MacBook', description: 'Good MacBook on the Market', price: 1699.00 },
-        { id: 7, name: 'M3 MacBook', description: 'Better MacBook on the Market', price: 2699.00 },
-        { id: 8, name: 'M4 MacBook', description: 'Best MacBook on the Market', price: 3699.01 }
+    const user = { id: 3, firstName: 'George', lastName: 'Costanza', community: 'ParkView Living', apartment: '5f'};
+
+    const users = [
+        { id: 5, firstName: 'Alice', lastName: 'Wonderland', community: 'Seaview Apartments', apartment: '3b' },
+        { id: 6, firstName: 'Kate', lastName: 'Bush', community: 'Ventura Ridge', apartment: '206' },
+        { id: 7, firstName: 'Ben', lastName: 'Dover', community: 'The Regal Apartments', apartment: 'PH1' },
+        { id: 8, firstName: 'Quandale', lastName: 'Dingle', community: 'Ashwood Vista', apartment: '6j' }
     ];
-     
+    
     const titleStyle = {
         fontSize: '40px',
         textAlign: 'center'
@@ -20,36 +23,37 @@ const MaintenanceRequest = (props) => {
         fontSize: '12px',
         textAlign: 'center'
     }
-    
-    useEffect( () => {
-        console.log(product);
+
+
+    useEffect(() => {
+        console.log(user);
     })
 
     return (
         <Fragment>
-            
-            <h1 style={titleStyle}>Julie add Maintenance Request Form here</h1>
 
-            <p style={bottomStyle}>(try pull some dummy data from above array)</p>
+            <h1 style={titleStyle}>Maintenance Request</h1>
 
-            {products.map((pr, i) =>
+            {/* }<p style={bottomStyle}>(try pull some dummy data from above array)</p>*/}
+
+            {users.map((pr, i) =>
                 <Fragment key={i}>
 
-                    <Product3 product={pr}></Product3>
-                    <p style={bottomStyle}>This is number {i} in the loop</p>
-                </Fragment> 
+                    <UserId user={pr}></UserId>
+                    {/* } <p style={bottomStyle}>This is number {i} in the loop</p>*/}
+                </Fragment>
             )}
-            
+
         </Fragment>
     )
-   
+
 };
 
-export default MaintenanceRequest;
 
-const Product3 = (props) => {
 
-    const [product, setProduct] = useState(props.product)
+const UserId = (props) => {
+
+    const [user, setUser] = useState(props.user)
 
     const rowStyle = {
         borderTop: '1px solid #dddddd',
@@ -61,11 +65,86 @@ const Product3 = (props) => {
     }
 
     return (
-        <div style={rowStyle}>
-            <h3>{product.name} - ID:{product.id}</h3>
-            <h6 style={costStyle}>${product.price}</h6>
-            <p>{product.description}</p>
+        <div class="userId" style={rowStyle}>
+            
+            <h4 class="greeting" >Hello {user.firstName} Welcome to our Maintenance Portal </h4>
+            <h5>Maintenance Request ID:{user.id}</h5>
+            <h6>Tenant: {user.firstName}  {user.lastName}</h6>
+            <h6>Community: {user.community} Unit: {user.apartment}</h6>
+                        
+            <FormGroup row>
+                <Label
+                    for="exampleSelect"
+                    sm={2}
+                >
+                    Category
+                </Label>
+                <Col sm={10}>
+                    <Input id="exampleSelect"
+                        name="select"
+                        type="select"
+                    >
+                        <option class="urgent">
+                            Urgent - Health and Safety Issue
+                        </option>
+                        <option>
+                            Service & Repairs
+                        </option>                        
+                    </Input>
+                </Col>
+            </FormGroup>
+            <FormGroup row>
+                <Label
+                    for="exampleSelect"
+                    sm={2}
+                >
+                    Maintenance Type
+                </Label>
+                <Col sm={10}>
+                    <Input
+                        id="exampleSelect"
+                        name="select"
+                        type="select"
+                    >                        
+                        <option>
+                            Electrical
+                        </option>
+                        <option>
+                            Plumbing
+                        </option>
+                        <option>
+                            Painting Decorating
+                        </option>
+                        <option>
+                            Other
+                        </option>
+                    </Input>
+                </Col>
+            </FormGroup>
+            <FormGroup row>
+                <Label
+                    for="details"
+                    sm={2}
+                >
+                   Details
+                </Label>
+                <Col sm={10}>
+                    <div className="form-group">
+                        
+                        <textarea
+                            className="form-control"
+                            id="exampleFormControlTextarea1"
+                            placeholder="Please provide service request details"
+                            rows="5"
+                        />
+                    </div>                    
+                </Col>
+                <Button color="light">
+                    Submit
+                </Button>
+            </FormGroup>
         </div>
     )
-    
+
 };
+export default MaintenanceRequest;

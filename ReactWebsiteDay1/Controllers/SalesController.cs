@@ -14,17 +14,17 @@ namespace ReactWebsite.Controllers
     public class SalesController : ControllerBase
     {
         [HttpGet]
-        public IEnumerable<ProductModel> Get()
+        public IEnumerable<UserModel> Get()
         {
-            var products = new List<ProductModel>();
-            products.Add(new ProductModel
+            var products = new List<UserModel>();
+            products.Add(new UserModel
             {
                 ProductId = 1,
                 Name = "Pencil",
                 Description = "To Write",
                 Price = 10
             });
-            products.Add(new ProductModel
+            products.Add(new UserModel
             {
                 ProductId = 2,
                 Name = "Eraser",
@@ -37,20 +37,20 @@ namespace ReactWebsite.Controllers
 
 
         //[HttpGet]
-        //public IEnumerable<ProductModel> GetFromDb()
+        //public IEnumerable<UserModel> GetFromDb()
         //{
         //    var connectionString = "Data Source =.; Initial Catalog = Avanade.Engine.Sales; Integrated Security = True; TrustServerCertificate = true";
         //    var connection = new SqlConnection(connectionString);
         //    var readProductsCommand = new SqlCommand("Select ProductId, Name, Description, Price from Sales.Product", connection);
 
-        //    var products = new List<ProductModel>();
+        //    var products = new List<UserModel>();
         //    try
         //    {
         //        connection.Open();
         //        var dataReader = readProductsCommand.ExecuteReader();
         //        while (dataReader.Read())
         //        {
-        //            products.Add(new ProductModel
+        //            products.Add(new UserModel
         //            {
         //                ProductId =dataReader.GetInt32(0),
         //                Name = dataReader.GetString(1), 

@@ -22,6 +22,26 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="ClientApp\src\resources\css\MaintenanceRequest.cs" />
+    <Compile Remove="Controllers\Calculator - Copy.cs" />
+    <Compile Remove="Controllers\SalesController.cs" />
+    <Compile Remove="Controllers\TextArea.cs" />
+    <Compile Remove="Model\ProductModel.cs" />
+    <Compile Remove="Model\UserModel.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="ClientApp\src\components\Contact.js" />
+    <None Remove="ClientApp\src\components\Example.js" />
+    <None Remove="ClientApp\src\components\Hello.js" />
+    <None Remove="ClientApp\src\components\MaintenanceRequestTest.js" />
+    <None Remove="ClientApp\src\components\Other\TextArea.js" />
+    <None Remove="ClientApp\src\resources\css\Landing - Copy.css" />
+    <None Remove="ClientApp\src\resources\css\MaintenanceRequest.cs" />
+    <None Remove="ClientApp\src\resources\css\NavMenu - Copy.css" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="ClientApp\src\resources\images\" />
   </ItemGroup>
 

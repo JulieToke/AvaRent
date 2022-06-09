@@ -1,0 +1,29 @@
+﻿body {
+   
+}
+.greeting{
+   text-align: center;
+}
+.uerId{
+    color: red;
+}
+.btn {
+    margin-top: 2rem;
+    color: darkorange;
+    border-color: darkorange;
+    transition: background-color 1s;
+}
+
+.btn:hover {
+    background-color: darkorange;
+    border-color: darkorange;
+    color: white;
+}
+
+/*.btn:focus,
+.btn:active {
+    background-color: darkorange;
+    color: white;
+    transition: none;
+}*/
+

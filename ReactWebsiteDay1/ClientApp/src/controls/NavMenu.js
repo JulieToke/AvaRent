@@ -35,17 +35,15 @@ export class NavMenu extends Component {
                               
                               <NavItem class="navLink" >
                                   <NavLink tag={Link} className="linkText" to="/">Home</NavLink>
-                              </NavItem>
-                          
+                              </NavItem>                          
 
                               <NavItem>
-                                  <NavLink tag={Link} className="linkText" to="/maintenance-request">Create Maintenance Request</NavLink>
+                                  <NavLink tag={Link} className="linkText" to="/maintenance-request">Tenant Login</NavLink>
                               </NavItem>
 
                               <NavItem>
-                                  <NavLink tag={Link} className="linkText" to="/new-tenant">Sign up to AvaRent</NavLink>
+                                  <NavLink tag={Link} className="linkText" to="/new-tenant">Tenacy Enquiries</NavLink>
                               </NavItem>
-                           
 
                           </ul>
                       </Collapse>

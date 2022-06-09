@@ -3,9 +3,8 @@ import { Route } from 'react-router';
 
 import Landing from './components/Landing';
 import NewTenant from './components/NewTenant';
-// import Hello from './components/Hello';
-//import ContactUs from './components/Contact';
 import MaintenanceRequest from './components/MaintenanceRequest';
+
 
 const AppRouting = () => {
 

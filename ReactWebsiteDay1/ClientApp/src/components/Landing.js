@@ -1,11 +1,7 @@
 import React, { Fragment } from 'react';
-import {
-    Container, Jumbotron, Row, Col, Image, Media, Button, Card, CardImg, CardText, CardBody, CardLink,
+import { Container, Row, Col, Button, Card, CardText, CardBody, CardLink,
     CardTitle, CardSubtitle  } from 'reactstrap';
 import './../resources/css/Landing.css';
-
-
-import avaLogo from './../resources/images/avaLogo.png';
 import avarentLogo from './../resources/images/avarentLogo.jpg';
 
 const Landing = (props) => {
@@ -25,13 +21,12 @@ const Landing = (props) => {
                         <img src={avaLogo} className="img-fluid"></img>
                     </Col>*/}
                     <Col lg="6">
-                        <Button  outline color="primary" size="m" block class="btn">Button1 Current Tenant?</Button>                       
+                        <Button  outline color="primary" size="m" block class="btn">Current Tenant Login</Button>                       
                     </Col>
                     <Col lg="6">
-                        <Button outline color="primary" size="m" block>Button2 Sign up for waiting list?</Button>
+                        <Button outline color="primary" size="m" block>New Tenancy Enquiries</Button>
                     </Col>
                 </Row>
-
                 <Row>
                     <Col lg="4">
                         <div>
@@ -48,7 +43,6 @@ const Landing = (props) => {
                             </Card>
                         </div>
                     </Col>
-
                     <Col lg="4">
                         <div>
                             <Card>
@@ -64,7 +58,6 @@ const Landing = (props) => {
                             </Card>
                         </div>
                     </Col>
-
                     <Col lg="4">
                         <div>
                             <Card>
@@ -80,7 +73,6 @@ const Landing = (props) => {
                             </Card>
                         </div>
                     </Col>
-
                     <Col lg="4">
                         <div>
                             <Card>
@@ -96,7 +88,6 @@ const Landing = (props) => {
                             </Card>
                         </div>
                     </Col>
-
                     <Col lg="4">
                         <div>
                             <Card>
@@ -111,17 +102,9 @@ const Landing = (props) => {
                                 </CardBody>
                             </Card>
                         </div>
-                    </Col>
-                </Row>
-
-                <Row>
+                    </Col>                
                     <footer></footer>
                 </Row>
-
-               
-         
-               
-
             </Container>
         </Fragment>
     );
