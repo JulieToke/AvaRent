@@ -18,7 +18,7 @@ const LogIn = (props) =>  {
                 </Row>
              
                 <Form>
-                    <h3 className="text-center">Log In to Your Account</h3>           
+                    <h3 className="text-center">Please Log In to Your Account</h3>           
                     <FormGroup>
                         <Label for="username">User Name:</Label>
                         <Input type="text" name="username" id="username" placeholder="User Name" />
