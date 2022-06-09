@@ -28,9 +28,9 @@
     transition: transform .7s ease;
 }
 
-    .card:hover {
-        transform: scale(1.08);
-    }
+.card:hover {
+    transform: scale(1.08);
+}
 
 .card img {
     height: 14rem;
