@@ -91,6 +91,23 @@ const NewTenant = ()  => {
                 </Col>
             </FormGroup>
 
+            <FormGroup row>
+                <Label
+                    for="dob"
+                    sm={2}
+                >
+                    Date of Birth
+                </Label>
+                <Col sm={10}>
+                    <Input
+                        id="dob"
+                        name="dob"
+                        placeholder="Date of Birth"
+                        type="text"
+                    />
+                </Col>
+            </FormGroup>
+
             <h4>Preferences</h4>
 
             <FormGroup row>
