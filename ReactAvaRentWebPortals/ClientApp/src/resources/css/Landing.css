@@ -7,6 +7,7 @@
     color: darkorange;
     border-color: darkorange;
     transition: background-color 1s;
+    margin-top:0rem;
 }
 
 .btn:hover {
@@ -27,9 +28,9 @@
     transition: transform .7s ease;
 }
 
-    .card:hover {
-        transform: scale(1.08);
-    }
+.card:hover {
+    transform: scale(1.08);
+}
 
 .card img {
     height: 14rem;
@@ -45,4 +46,13 @@
 
 footer {
     height: 6rem;
+}
+
+
+.linkText {
+    color: darkorange !important;
+}
+
+.linkText:hover {
+    color: orangered !important;
 }

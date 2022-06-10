@@ -4,6 +4,7 @@ import {
 import './../resources/css/Landing.css';
 import avaLogo from './../resources/images/avaLogo.png';
 import avarentLogo from './../resources/images/avarentLogo.jpg';
+import { Link } from "react-router-dom";
 
 const Landing = (props) => {
 
@@ -12,19 +13,23 @@ const Landing = (props) => {
             <Container>
                 <Row>
                     <Col className="text-center">                 
-                        <img src={avarentLogo} className="img-fluid"></img>
+                        <img src={avarentLogo} width="35%" className="img-fluid"></img>
                         <br />
                     </Col>
                 </Row>
-                <Row>
-                    {/*    <Col lg="4">
-                        <img src={avaLogo} className="img-fluid"></img>
-                    </Col>*/}
-                    <Col lg="6">
+                <Row>          
+                    {/*<Col lg="6">
                         <Button outline color="primary" size="m" block className="btn" onClick={() => props.history.push("/log-in")}>Current Tenant Login</Button>
                     </Col>
                     <Col lg="6">
                         <Button outline color="primary" size="m" block onClick={() => props.history.push("/new-tenant")}>New Tenancy Enquiries</Button>
+                    </Col>*/}
+                    <Col lg="3">                       
+                    </Col>
+                    <Col lg="6">   
+                        <Button outline width="50%" size="m" block className="btn" onClick={() => props.history.push("/log-in")}>Current Tenant Login</Button>
+                    </Col>
+                    <Col lg="3">  
                     </Col>
                 </Row>
                 <Row>
@@ -39,7 +44,8 @@ const Landing = (props) => {
                                 <CardBody>
                                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
                                     {/*<CardLink className="cardLink" href="#" onClick={() => props.history.push("/new-tenant")}>New Tenancy Enquiries</CardLink>*/}
-                                    <Button outline onClick={() => props.history.push("/new-tenant")}>New Tenancy Enquiries</Button>
+                                    {/*<Link className="linkText" href="#" onClick={() => props.history.push("/log-in")}>Current Tenant Login</Link><br /><br /> */}
+                                    <Link className="linkText" href="#" onClick={() => props.history.push("/new-tenant")}>New Tenancy Enquiries</Link> 
                                 </CardBody>
                             </Card>
                         </div>
@@ -54,7 +60,9 @@ const Landing = (props) => {
                                 <img width="100%" src="https://images.unsplash.com/photo-1455587734955-081b22074882?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Card image cap" />
                                 <CardBody>
                                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                                    <Button outline onClick={() => props.history.push("/new-tenant")}>New Tenancy Enquiries</Button>
+                                    {/*<Button outline onClick={() => props.history.push("/new-tenant")}>New Tenancy Enquiries</Button>*/}
+                                    {/*<Link className="linkText" href="#" onClick={() => props.history.push("/log-in")}>Current Tenant Login</Link><br /><br />*/}
+                                    <Link className="linkText" href="#" onClick={() => props.history.push("/new-tenant")}>New Tenancy Enquiries</Link> 
                                 </CardBody>
                             </Card>
                         </div>
@@ -69,7 +77,9 @@ const Landing = (props) => {
                                 <img width="100%" src="https://images.unsplash.com/photo-1504494683949-7319a9ba12d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Card image cap" />
                                 <CardBody>
                                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                                    <Button outline onClick={() => props.history.push("/new-tenant")}>New Tenancy Enquiries</Button>
+                                    {/*<Button outline onClick={() => props.history.push("/new-tenant")}>New Tenancy Enquiries</Button>*/}
+                                    {/*<Link className="linkText" href="#" onClick={() => props.history.push("/log-in")}>Current Tenant Login</Link><br /><br />*/}
+                                    <Link className="linkText" href="#" onClick={() => props.history.push("/new-tenant")}>New Tenancy Enquiries</Link> 
                                 </CardBody>
                             </Card>
                         </div>
@@ -85,7 +95,9 @@ const Landing = (props) => {
                                 <img width="100%" src="https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Card image cap" />
                                 <CardBody>
                                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                                    <Button outline onClick={() => props.history.push("/new-tenant")}>New Tenancy Enquiries</Button>
+                                    {/*<Button outline onClick={() => props.history.push("/new-tenant")}>New Tenancy Enquiries</Button>*/}
+                                    {/*<Link className="linkText" href="#" onClick={() => props.history.push("/log-in")}>Current Tenant Login</Link><br /><br />*/}
+                                    <Link className="linkText" href="#" onClick={() => props.history.push("/new-tenant")}>New Tenancy Enquiries</Link> 
                                 </CardBody>
                             </Card>
                         </div>
@@ -100,7 +112,9 @@ const Landing = (props) => {
                                 <img width="100%" src="https://images.pexels.com/photos/280212/pexels-photo-280212.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Card image cap" />
                                 <CardBody>
                                     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                                    <Button outline onClick={() => props.history.push("/new-tenant")}>New Tenancy Enquiries</Button>
+                                    {/*<Button outline onClick={() => props.history.push("/new-tenant")}>New Tenancy Enquiries</Button>*/}
+                                    {/*<Link className="linkText" href="#" onClick={() => props.history.push("/log-in")}>Current Tenant Login</Link><br /><br />*/}
+                                    <Link className="linkText" href="#" onClick={() => props.history.push("/new-tenant")}>New Tenancy Enquiries</Link> 
                                 </CardBody>
                             </Card>
                         </div>
