@@ -1,6 +1,7 @@
 import { Fragment, useEffect, useState } from "react";
 import { Button, Input, FormGroup, Label, Col } from 'reactstrap';
 import './../resources/css/MaintenanceRequest.css';
+import { Link } from "react-router-dom";
 
 
 const MaintenanceRequest = (props) => {
@@ -8,10 +9,10 @@ const MaintenanceRequest = (props) => {
     const user = { id: 3, firstName: 'George', lastName: 'Costanza', community: 'ParkView Living', apartment: '5f'};
 
     const users = [
-        { id: 5, firstName: 'Alice', lastName: 'Wonderland', community: 'Seaview Apartments', apartment: '3b' },
-        { id: 6, firstName: 'Kate', lastName: 'Bush', community: 'Ventura Ridge', apartment: '206' },
-        { id: 7, firstName: 'Ben', lastName: 'Dover', community: 'The Regal Apartments', apartment: 'PH1' },
-        { id: 8, firstName: 'Quandale', lastName: 'Dingle', community: 'Ashwood Vista', apartment: '6j' }
+        { id: 5, firstName: 'Alice', lastName: 'Wonderland', community: 'Seaview Apartments', apartment: '3B' }
+        //{ id: 6, firstName: 'Kate', lastName: 'Bush', community: 'Ventura Ridge', apartment: '206' },
+        //{ id: 7, firstName: 'Ben', lastName: 'Dover', community: 'The Regal Apartments', apartment: 'PH1' },
+        //{ id: 8, firstName: 'Quandale', lastName: 'Dingle', community: 'Ashwood Vista', apartment: '6j' }
     ];
     
     const titleStyle = {
@@ -60,17 +61,14 @@ const UserId = (props) => {
         padding: '20px'
     }
 
-    const costStyle = {
-        color: 'red',
-    }
-
     return (
-        <div class="userId" style={rowStyle}>
+        <div className="userId" style={rowStyle}>
             
-            <h4 class="greeting" >Hello {user.firstName} Welcome to our Maintenance Portal .</h4>
-            <h5>Maintenance Request ID:{user.id}</h5>
+            <h4 className="greeting" >Hello {user.firstName}, Welcome to our Maintenance Portal</h4>
+            {/*<h5>Maintenance Request ID:{user.id}</h5>*/}
             <h6>Tenant: {user.firstName}  {user.lastName}</h6>
-            <h6>Community: {user.community} Unit: {user.apartment}</h6>
+            <h6>Community: {user.community}</h6>
+            <h6>Apartment: {user.apartment}</h6>
                         
             <FormGroup row>
                 <Label
@@ -84,12 +82,21 @@ const UserId = (props) => {
                         name="select"
                         type="select"
                     >
-                        <option class="urgent">
+                        <option className="urgent">
                             Urgent - Health and Safety Issue
                         </option>
+                        <option className="prestige">
+                            Prestige
+                        </option>     
                         <option>
-                            Service & Repairs
-                        </option>                        
+                            High
+                        </option>  
+                        <option>
+                            Medium
+                        </option>  
+                        <option>
+                            Low
+                        </option>  
                     </Input>
                 </Col>
             </FormGroup>
@@ -113,7 +120,7 @@ const UserId = (props) => {
                             Plumbing
                         </option>
                         <option>
-                            Painting Decorating
+                            Painting/Decorating
                         </option>
                         <option>
                             Other
@@ -139,9 +146,7 @@ const UserId = (props) => {
                         />
                     </div>                    
                 </Col>
-                <Button color="light">
-                    Submit
-                </Button>
+                <Button onClick={event => window.location.href='/maintenance-request-success'}>Submit</Button>
             </FormGroup>
         </div>
     )

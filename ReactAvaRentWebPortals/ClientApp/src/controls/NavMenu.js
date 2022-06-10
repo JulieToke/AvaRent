@@ -27,22 +27,16 @@ export class NavMenu extends Component {
             <header>
                 <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3" light>
                     <Container>
-                      <NavbarBrand tag={Link} className="linkText" to="/"><img src={avaLogo} className="logo"></img></NavbarBrand>
+                      <NavbarBrand tag={Link} className="linkText logo" to="/"><img src={avaLogo} className="logo"></img></NavbarBrand>
                       <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
                       <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={!this.state.collapsed} navbar>
                           <ul className="navbar-nav flex-grow">
-                             
-                              <NavItem class="navLink" >
-                                  <NavLink tag={Link} className="linkText" to="/">Home</NavLink>
-                              </NavItem>                          
+                                                   
 
                               <NavItem>
-                                    <NavLink tag={Link} className="linkText" to="/log-in">Tenant Login</NavLink>
+                                    <NavLink tag={Link} className="linkText bg btn orange" to="/log-in">Tenant Login</NavLink>
                               </NavItem>
-
-                              <NavItem>
-                                  <NavLink tag={Link} className="linkText" to="/new-tenant">Tenacy Enquiries</NavLink>
-                              </NavItem>                          
+                     
                             </ul>
                         </Collapse>
                     </Container>

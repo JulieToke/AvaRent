@@ -19,12 +19,23 @@ html {
 
 .linkText {
     color: darkorange !important;
+    margin-top:0;
+}
+
+.linkText.bg {
+    background: #ff7900 !important;
+    color: #FFFFFF !important;
 }
 
 .linkText:hover {
-    color: orangered !important;
+    background: #c95e00 !important;
+    color: #FFFFFF !important;
 }
 
-.logo {
-    width: 2rem;
-}
+    .linkText.logo:hover {
+        background: none;
+    }
+
+    .logo {
+        width: 2rem;
+    }

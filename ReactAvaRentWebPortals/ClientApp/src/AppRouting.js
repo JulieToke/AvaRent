@@ -5,6 +5,7 @@ import Landing from './components/Landing';
 import NewTenant from './components/NewTenant';
 import MaintenanceRequest from './components/MaintenanceRequest';
 import LogIn from './components/LogInForm';
+import MaintenanceRequestSuccess from './components/MaintenanceRequestSuccess';
 
 
 const AppRouting = () => {
@@ -15,7 +16,7 @@ const AppRouting = () => {
             <Route exact={true} path="/maintenance-request" component={MaintenanceRequest} />
             <Route exact={true} path="/new-tenant" component={NewTenant} />
             <Route exact={true} path="/log-in" component={LogIn} />
-
+            <Route exact={true} path="/maintenance-request-success" component={MaintenanceRequestSuccess} />
         </Fragment>
     );
 };
