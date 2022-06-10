@@ -35,6 +35,14 @@
     height: 14rem;
 }
 
+.cardLink {
+    color:darkorange;
+}
+
+.cardLink:hover {
+    color: orangered;
+}
+
 footer {
-    height: 3rem;
+    height: 6rem;
 }
