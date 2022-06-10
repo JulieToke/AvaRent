@@ -67,7 +67,7 @@ const UserId = (props) => {
     return (
         <div class="userId" style={rowStyle}>
             
-            <h4 class="greeting" >Hello {user.firstName} Welcome to our Maintenance Portal </h4>
+            <h4 class="greeting" >Hello {user.firstName} Welcome to our Maintenance Portal .</h4>
             <h5>Maintenance Request ID:{user.id}</h5>
             <h6>Tenant: {user.firstName}  {user.lastName}</h6>
             <h6>Community: {user.community} Unit: {user.apartment}</h6>
