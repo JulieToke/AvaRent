@@ -1,14 +1,8 @@
 import React, { Fragment } from 'react';
-<<<<<<< HEAD:ReactAvaRentWebPortals/ClientApp/src/components/Landing.js
-import { Container, Row, Col, Button, Card, CardText, CardBody, CardLink,
-    CardTitle, CardSubtitle  } from 'reactstrap';
-import './../resources/css/Landing.css';
-=======
 import {
     Container, Jumbotron, Row, Col, Image, Media, Button, Card, CardImg, CardText, CardBody, CardLink,CardTitle, CardSubtitle  } from 'reactstrap';
 import './../resources/css/Landing.css';
 import avaLogo from './../resources/images/avaLogo.png';
->>>>>>> Siri:ReactWebsiteDay1/ClientApp/src/components/Landing.js
 import avarentLogo from './../resources/images/avarentLogo.jpg';
 
 const Landing = (props) => {

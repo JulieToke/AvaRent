@@ -5,7 +5,7 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{21DDA622-E15D-4333-AE3A-DE0971C7A195}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaRent", "ReactWebsiteDay1\AvaRent.csproj", "{708F3BA5-B52F-47B6-A8C7-06FB6A79578F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaRent", "ReactAvaRentWebPortals\AvaRent.csproj", "{708F3BA5-B52F-47B6-A8C7-06FB6A79578F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
