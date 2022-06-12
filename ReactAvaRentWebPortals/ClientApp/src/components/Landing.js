@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import {
     Container, Row, Col, Button, Card, CardText, CardBody, CardTitle, CardSubtitle  } from 'reactstrap';
 import './../resources/css/Landing.css';
-import avarentLogo from './../resources/images/avarentLogo.jpg';
+import AvaRentlogo from './../resources/images/AvaRentlogo.png';
 import { Link } from "react-router-dom";
 
 const Landing = (props) => {
@@ -12,7 +12,7 @@ const Landing = (props) => {
             <Container>
                 <Row>
                     <Col className="text-center">                 
-                        <img src={avarentLogo} width="35%" className="img-fluid"></img>
+                        <img src={AvaRentlogo} width="35%" className="img-fluid"></img>
                         <br />
                     </Col>
                 </Row>

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Collapse, Container, DropdownItem, DropdownMenu, Navbar, NavbarBrand, NavbarToggler, NavItem, NavLink, DropdownToggle, UncontrolledDropdown } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import './../resources/css/NavMenu.css';
-import avaLogo from './../resources/images/avaLogo.png';
+import logoimage from './../resources/images/logoimage.png';
 
 export class NavMenu extends Component {
     static displayName = NavMenu.name;
@@ -27,7 +27,7 @@ export class NavMenu extends Component {
             <header>
                 <Navbar className="navbar-expand-sm navbar-toggleable-sm ng-white border-bottom box-shadow mb-3" light>
                     <Container>
-                      <NavbarBrand tag={Link} className="linkText logo" to="/"><img src={avaLogo} className="logo"></img></NavbarBrand>
+                      <NavbarBrand tag={Link} className="linkText logo" to="/"><img src={logoimage} className="logo"></img></NavbarBrand>
                       <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
                       <Collapse className="d-sm-inline-flex flex-sm-row-reverse" isOpen={!this.state.collapsed} navbar>
                           <ul className="navbar-nav flex-grow">

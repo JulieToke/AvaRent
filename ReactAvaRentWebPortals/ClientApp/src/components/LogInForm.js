@@ -3,7 +3,7 @@ import {
     Button, Form, FormGroup, Label, Input, FormText, Card, CardImg, CardText, CardBody, CardLink,
     CardTitle, CardSubtitle, Container, Row, Col
 } from 'reactstrap';
-import avarentLogo from './../resources/images/avarentLogo.jpg';
+import AvaRentlogo from './../resources/images/AvaRentlogo.png';
 import { Link } from "react-router-dom";
 
 const LogIn = (props) =>  {
@@ -12,7 +12,7 @@ const LogIn = (props) =>  {
               <Row>
                     <Col className="text-center">
                         {/*<h1>AvaRent</h1>*/}
-                        <img width ="20%" src={avarentLogo} className="img-fluid"></img>
+                        <img width ="20%" src={AvaRentlogo} className="img-fluid"></img>
                         <br /><br />
                     </Col>
                 </Row>
