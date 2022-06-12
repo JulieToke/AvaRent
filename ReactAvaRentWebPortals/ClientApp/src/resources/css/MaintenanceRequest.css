@@ -4,14 +4,12 @@
 .greeting{
    text-align: center;
 }
-.uerId{
-    color: red;
-}
+
 .btn {
     margin-top: 2rem;
     color: darkorange;
     border-color: darkorange;
-    transition: background-color 1s;
+    
 }
 
 .btn:hover {

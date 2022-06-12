@@ -1,5 +1,5 @@
 ﻿import { Fragment } from "react";
-import './../resources/css/MaintenanceRequest.css';
+//import './../resources/css/MaintenanceRequest.css';
 
 
 const MaintenanceRequestSuccess = (props) => {
@@ -15,7 +15,7 @@ const MaintenanceRequestSuccess = (props) => {
             <p>Click here to go <a href="/">back</a> to the homepage.</p>
 
         </Fragment>
-    )
+    );
 
 };
 

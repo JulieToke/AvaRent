@@ -1,8 +1,7 @@
 import React, { Fragment } from 'react';
 import {
-    Container, Jumbotron, Row, Col, Image, Media, Button, Card, CardImg, CardText, CardBody, CardLink,CardTitle, CardSubtitle  } from 'reactstrap';
+    Container, Row, Col, Button, Card, CardText, CardBody, CardTitle, CardSubtitle  } from 'reactstrap';
 import './../resources/css/Landing.css';
-import avaLogo from './../resources/images/avaLogo.png';
 import avarentLogo from './../resources/images/avarentLogo.jpg';
 import { Link } from "react-router-dom";
 

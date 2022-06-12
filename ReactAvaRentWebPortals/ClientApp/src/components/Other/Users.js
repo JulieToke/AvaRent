@@ -3,7 +3,7 @@ import { Container, Jumbotron, Row, Col, Image, Media } from 'reactstrap';
 
 import avaLogo from './../resources/images/avaLogo.png';
 
-const userResults = [{ id: 1, name: 'book', description: 'React Fundamentals', price: 50 }, { id: 2, name: 'laptop', description: 'Dell laptop', price: 2000 }]
+//const userResults = [{ id: 1, name: 'book', description: 'React Fundamentals', price: 50 }, { id: 2, name: 'laptop', description: 'Dell laptop', price: 2000 }]
 const users = (props) => {
     const userList = userResults.map((user) => (
             <tr>

@@ -1,12 +1,11 @@
-import { Fragment, useEffect, useState } from "react";
+import { Fragment, useState } from "react";
 import { Button, Input, FormGroup, Label, Col } from 'reactstrap';
-import './../resources/css/MaintenanceRequest.css';
-import { Link } from "react-router-dom";
+//import './../resources/css/MaintenanceRequest.css';
 
 
 const MaintenanceRequest = (props) => {
 
-    const user = { id: 3, firstName: 'George', lastName: 'Costanza', community: 'ParkView Living', apartment: '5f'};
+    //const user = { id: 3, firstName: 'George', lastName: 'Costanza', community: 'ParkView Living', apartment: '5f'};
 
     const users = [
         { id: 5, firstName: 'Alice', lastName: 'Wonderland', community: 'Seaview Apartments', apartment: '3B' }
@@ -26,14 +25,14 @@ const MaintenanceRequest = (props) => {
     }
 
 
-    useEffect(() => {
-        console.log(user);
-    })
+    //useEffect(() => {
+    //    console.log(user);
+    //})
 
     return (
         <Fragment>
 
-            <h1 style={titleStyle}>Maintenance Request</h1>
+            <h1>Maintenance Request</h1>
 
             {/* }<p style={bottomStyle}>(try pull some dummy data from above array)</p>*/}
 
@@ -46,10 +45,8 @@ const MaintenanceRequest = (props) => {
             )}
 
         </Fragment>
-    )
-
+    );
 };
-
 
 
 const UserId = (props) => {
@@ -63,13 +60,13 @@ const UserId = (props) => {
 
     return (
         <div className="userId" style={rowStyle}>
-            
+
             <h4 className="greeting" >Hello {user.firstName}, Welcome to our Maintenance Portal</h4>
             {/*<h5>Maintenance Request ID:{user.id}</h5>*/}
             <h6>Tenant: {user.firstName}  {user.lastName}</h6>
             <h6>Community: {user.community}</h6>
             <h6>Apartment: {user.apartment}</h6>
-                        
+
             <FormGroup row>
                 <Label
                     for="exampleSelect"
@@ -87,16 +84,16 @@ const UserId = (props) => {
                         </option>
                         <option className="prestige">
                             Prestige
-                        </option>     
+                        </option>
                         <option>
                             High
-                        </option>  
+                        </option>
                         <option>
                             Medium
-                        </option>  
+                        </option>
                         <option>
                             Low
-                        </option>  
+                        </option>
                     </Input>
                 </Col>
             </FormGroup>
@@ -112,7 +109,7 @@ const UserId = (props) => {
                         id="exampleSelect"
                         name="select"
                         type="select"
-                    >                        
+                    >
                         <option>
                             Electrical
                         </option>
@@ -133,23 +130,22 @@ const UserId = (props) => {
                     for="details"
                     sm={2}
                 >
-                   Details
+                    Details
                 </Label>
                 <Col sm={10}>
                     <div className="form-group">
-                        
+
                         <textarea
                             className="form-control"
                             id="exampleFormControlTextarea1"
                             placeholder="Please provide service request details"
                             rows="5"
                         />
-                    </div>                    
+                    </div>
                 </Col>
-                <Button onClick={event => window.location.href='/maintenance-request-success'}>Submit</Button>
+                <Button outline color="primary" className="btn" onClick={event => window.location.href = '/maintenance-request-success'}>Submit</Button>
             </FormGroup>
         </div>
-    )
-
+    );
 };
 export default MaintenanceRequest;
