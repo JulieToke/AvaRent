@@ -5,6 +5,7 @@ const NewTenant = ()  => {
 return (
     <Fragment>        
         <Form>
+            <h1>New Tenant Enquiry</h1>
             <h4>Your Details</h4>
 
             <FormGroup row>
@@ -43,16 +44,16 @@ return (
 
             <FormGroup row>
                 <Label
-                    for="address"
+                    for="mobile"
                     sm={2}
                 >
-                    Address
+                    Mobile
                 </Label>
                 <Col sm={10}>
                     <Input
-                        id="address"
+                        id="mobile"
                         name="first-name"
-                        placeholder="Address"
+                        placeholder="0412 345 678"
                         type="text"
                     />
                 </Col>
@@ -77,23 +78,55 @@ return (
 
             <FormGroup row>
                 <Label
-                    for="dob"
+                    for="date"
                     sm={2}
                 >
-                    Date of Birth
+                    Date Required
                 </Label>
                 <Col sm={10}>
                     <Input
-                        id="dob"
-                        name="dob"
-                        placeholder="Date of Birth"
-                        type="text"
+                        id="date"
+                        name="date"
+                        placeholder="dd/mm/yyyy"
+                        type="date"
                     />
                 </Col>
             </FormGroup>
 
 
             <h4>Preferences</h4>
+
+            <FormGroup row>
+                <Label
+                    for="community"
+                    sm={2}
+                >
+                    Community
+                </Label>
+                <Col sm={10}>
+                    <Input
+                        id="community"
+                        name="select"
+                        type="select"
+                    >
+                        <option>
+                            Parkview Living
+                        </option>
+                        <option>
+                            Seaview Apartments
+                        </option>
+                        <option>
+                            Ventura Ridge
+                        </option>
+                        <option>
+                            The Regal Apartments
+                        </option>
+                        <option>
+                            Ashwood Vista
+                        </option>
+                    </Input>
+                </Col>
+            </FormGroup>
 
             <FormGroup row>
                 <Label
@@ -184,23 +217,7 @@ return (
                     </Input>
                 </Col>
             </FormGroup>
-
-            <FormGroup row>
-                <Label
-                    for="move-in-date"
-                    sm={2}
-                >
-                    Move in Date
-                </Label>
-                <Col sm={10}>
-                    <Input
-                        id="move-in-date"
-                        name="move-in-date"
-                        placeholder="Move in Date"
-                        type="text"
-                    />
-                </Col>
-            </FormGroup>
+            
             <Button outline color="primary" className="btn" onClick={event => window.location.href = '/new-tenant-enquiry-success'}>Submit</Button>
         </Form>
     </Fragment>
